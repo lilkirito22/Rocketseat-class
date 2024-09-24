@@ -3,6 +3,8 @@ footer{
   gap: 24px;
   padding-block: 24px;
 
+  font: 14px/1.5 var(--font-family);
+
 
 }
 
