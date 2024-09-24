@@ -1,0 +1,35 @@
+
+*{
+  font-family: "Open Sans", sans-serif; ;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#page {
+  
+  width: 800px;
+  padding: 88px 80px;
+  margin: auto;
+
+
+}
+
+main{
+  padding: 24px;
+}
+
+
+#tittle{
+  font-size: 10px;
+  color: red;
+}
+
+img{
+  border-radius: 28px;
+  width: 100%;
+}
