@@ -43,19 +43,23 @@ h3 {
   font: inherit;
 }
 
+img {
+  max-width: 100%;
+  /* height: auto; */
+}
+
+
 .container{
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
 }
 
-
-/* utility-first classes */
-
-.grid{
-  display: grid;
+main{
+  margin-top: 40px;
+  
 }
 
-.grid-flow-col {
-  grid-auto-flow: column;
-}
+
+
+
