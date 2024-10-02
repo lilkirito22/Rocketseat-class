@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Inputs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .input-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .input-box input,
+        .input-box select {
+            flex: 1;
+        }
+        .description {
+            max-width: 250px;
+            color: #555;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Inputs and Descriptions</h2>
+    <div class="container">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Your Name">
+            <span class="description">Cria um campo de texto para entrada de dados.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="password" name="password" placeholder="Password">
+            <span class="description">Campo de entrada de senha onde o texto é mascarado.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="email" name="email" placeholder="you@example.com">
+            <span class="description">Campo para emails com validação básica.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="age" min="0" max="100" placeholder="Age">
+            <span class="description">Campo para inserção de números com limites.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <span class="description">Botões de opção (radio) para seleção única.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="checkbox" name="subscribe" value="newsletter"> Subscribe to newsletter
+            <span class="description">Caixa de seleção que pode ser marcada ou desmarcada.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="date" name="birthday">
+            <span class="description">Seletor para escolher uma data.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="color" name="favcolor">
+            <span class="description">Campo para selecionar uma cor.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="file" name="file">
+            <span class="description">Campo para upload de arquivos.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="range" name="points" min="0" max="10">
+            <span class="description">Controle deslizante para escolher um valor dentro de um intervalo.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="search" name="search" placeholder="Search...">
+            <span class="description">Campo de pesquisa para buscar informações.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="tel" name="phone" placeholder="(XX) XXXXX-XXXX">
+            <span class="description">Campo para inserção de números de telefone.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="time" name="time">
+            <span class="description">Campo para inserção de horas.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="url" name="website" placeholder="https://">
+            <span class="description">Campo para inserir URLs.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="hidden" name="userid" value="12345">
+            <span class="description">Campo oculto não visível, mas enviado no formulário.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="submit" value="Submit">
+            <span class="description">Botão para enviar os dados do formulário.</span>
+        </div>
+
+        <div class="input-box">
+            <input type="reset" value="Reset">
+            <span class="description">Botão para reiniciar os campos do formulário.</span>
+        </div>
+    </div>
+</body>
+</html>
